@@ -10,8 +10,8 @@ const Portfolio = () => {
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center mb-16">
             <h4 className="font-semibold text-lg text-primary">Portfolio</h4>
-            <h2 className="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
-            <p className="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Project Terbaru</h2>
+            <p className="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
 
@@ -20,21 +20,21 @@ const Portfolio = () => {
             <div className="rounded-md shadow-md overflow-hidden">
               <img src={Docta} alt="Docta" width="w-full" />
             </div>
-            <h3 className="font-semibold text-xl text-dark mt-3 mb-5">Landing Page Docta</h3>
+            <h3 className="font-semibold text-xl text-dark mt-3 mb-5">Slicing Landing Page Docta</h3>
             <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab aliquam voluptatum.</p>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
               <img src={weatherApp} alt="Weather App" width="w-full" />
             </div>
-            <h3 className="font-semibold text-xl text-dark mt-3 mb-5">Landing Page Docta</h3>
+            <h3 className="font-semibold text-xl text-dark mt-3 mb-5">Kobokan WeatherApp</h3>
             <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab aliquam voluptatum.</p>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
               <img src={landingPage} alt="Landing Page Muhammad Taufik" width="w-full" />
             </div>
-            <h3 className="font-semibold text-xl text-dark mt-3 mb-5">Landing Page Docta</h3>
+            <h3 className="font-semibold text-xl text-dark mt-3 mb-5">Web Portfolio dengan Boostrap 4</h3>
             <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab aliquam voluptatum.</p>
           </div>
         </div>
