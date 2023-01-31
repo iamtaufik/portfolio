@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="mt-10 relative lg:mt-9 lg:right-0">
               <img src={PassFoto} alt="Muhammad Taufik Hidayat" className="max-w-full mx-auto" />
               {/* gambar 500x500 */}
-              <span className="absolute bottom-0 -z-10 lef-1/2 lg:left-1/4 -translate-x-1/2 md:scale-115">
+              <span className="absolute bottom-0 -z-10 left-1/2 lg:left-1/4 -translate-x-1/2 md:scale-115">
                 <svg width="375" height="375" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                   <path
                     fill="#06b6d4"
