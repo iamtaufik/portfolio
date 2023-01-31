@@ -14,7 +14,7 @@ const HeroSection = () => {
               Mahasiswa & <span className="text-dark">Web Developer</span>
             </h2>
             <p className="font-medium text-secondary mb-10 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis exercitationem, alias quos esse dolor!</p>
-            <a href="#" className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full  hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
+            <a href="#contact" className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full  hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
               Hubungi Saya
             </a>
           </div>
@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="mt-10 relative lg:mt-9 lg:right-0">
               <img src={PassFoto} alt="Muhammad Taufik Hidayat" className="max-w-full mx-auto" />
               {/* gambar 500x500 */}
-              <span className="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-115">
+              <span className="absolute animate-myspin bottom-0 -z-10 lef-0 lg:left-1/4 -translate-x-1/2 md:scale-115">
                 <svg width="375" height="375" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                   <path
                     fill="#06b6d4"

@@ -14,6 +14,19 @@ module.exports = {
       screens: {
         '2xl': '1320px',
       },
+      keyframes: {
+        myspin: {
+          from: {
+            transform: 'rotate(0deg)',
+          },
+          to: {
+            transform: 'rotate(360deg)',
+          },
+        },
+      },
+      animation: {
+        myspin: 'myspin infinite 5s linear',
+      },
     },
   },
   plugins: [],
